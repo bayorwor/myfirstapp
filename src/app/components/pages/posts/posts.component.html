@@ -1,0 +1,7 @@
+<section class="container">
+  <mat-grid-list cols="3">
+    <mat-grid-tile class="grid-tile" *ngFor="let post of posts">
+      <app-card [item]="post"> </app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>

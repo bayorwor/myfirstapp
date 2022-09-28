@@ -1,0 +1,12 @@
+.container {
+  padding: 10px 150px;
+}
+mat-grid-tile {
+  background-color: steelblue;
+  padding: auto;
+  color: white;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
